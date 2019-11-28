@@ -1,0 +1,7 @@
+{
+  "code": 200,
+  "msg": "",
+  "data": {
+     "buildQRCodeURL": "https://www.baidu.com"
+  }
+}
