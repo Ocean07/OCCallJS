@@ -33,7 +33,7 @@ function export_release() {
         echo "打包 ---> release"
 
         ARCHIVE_METHOD="Release"
-        ARCHIVE_PATH="${project_path}/export/ipas/{scheme}_release"
+        ARCHIVE_PATH="${project_path}/export/archives/${ARCHIVE_METHOD}"
         xcodebuild archive -scheme ${scheme} -configuration ${ARCHIVE_METHOD}  -archivePath ${ARCHIVE_PATH}
 
         EXPORT_PATH="${project_path}/export/ipas/${scheme}_release"
