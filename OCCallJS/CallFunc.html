@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>OC与JS交互</title>
+        <meta charset="utf-8" />
+        
+        
+        <script>
+            function startAct() {
+                window.webkit.messageHandlers.currentCookies.postMessage({
+                                                                         "start": true
+                                                                         });
+            }
+        
+        function stopAct() {
+            window.webkit.messageHandlers.currentCookies.postMessage({
+                                                                     "body": false
+                                                                     });
+        }
+        
+        function callJS(msg) {
+            alert(msg);
+        }
+        
+            </script>
+        
+    </head>
+    
+    <body>
+        
+        <input type="button" value="开始录音" onclick="startAct()" /> <br /><br />
+        <input type="button" value="停止录音" onclick="stopAct()" /><br />
+        
+    </body>
+    
+</html>
+
+

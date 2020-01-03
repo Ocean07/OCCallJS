@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CallFuncController.h"
+#import "CalculateController.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = UIColor.whiteColor;
     
     UIButton *btn1 = [[UIButton alloc] init];
     btn1.frame = CGRectMake(100, 100, 100, 35);
@@ -42,6 +46,24 @@
     [btn3 addTarget:self action:@selector(showWebView:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn3];
     
+    
+    // call func demo
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithTitle:@"CallFunc" style:UIBarButtonItemStylePlain target:self action:@selector(showCallFunc:)];
+    self.navigationItem.leftBarButtonItem = leftItem;
+    
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"Calcu" style:UIBarButtonItemStylePlain target:self action:@selector(showCalcu:)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+    
+}
+
+- (void)showCallFunc:(id)sender {
+    CallFuncController *callFuncVC = [CallFuncController new];
+    [self.navigationController pushViewController:callFuncVC animated:true];
+}
+
+- (void)showCalcu:(id)sender {
+    CalculateController *calculateVC = [CalculateController new];
+    [self.navigationController pushViewController:calculateVC animated:true];
 }
 
 - (void)showWebView:(UIButton *)btn {

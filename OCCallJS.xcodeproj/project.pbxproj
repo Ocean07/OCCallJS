@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C78C21723BD793200FD4176 /* CallFuncController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C21623BD793200FD4176 /* CallFuncController.m */; };
+		6C78C21923BD7AFB00FD4176 /* CallFunc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C78C21823BD7AFB00FD4176 /* CallFunc.html */; };
+		6C78C21C23BD7BC800FD4176 /* CalculateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C21B23BD7BC800FD4176 /* CalculateController.m */; };
+		6C78C21F23BD84C100FD4176 /* CurrencyListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C21E23BD84C100FD4176 /* CurrencyListController.m */; };
+		6C78C22223BD8F8900FD4176 /* CustSegmentCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C22123BD8F8900FD4176 /* CustSegmentCtl.m */; };
+		6C78C22523BDC1D000FD4176 /* CalculateViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C22423BDC1D000FD4176 /* CalculateViewModel.m */; };
+		6C78C22823BDC48C00FD4176 /* CalculateInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C22723BDC48C00FD4176 /* CalculateInfoCell.m */; };
+		6C78C22B23BDD35B00FD4176 /* CalculateResultListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C22A23BDD35B00FD4176 /* CalculateResultListVC.m */; };
+		6C78C22E23BDD89400FD4176 /* CalculateModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C22D23BDD89400FD4176 /* CalculateModels.m */; };
 		A08352F4234101F600345066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A08352F3234101F600345066 /* AppDelegate.m */; };
 		A08352F7234101F600345066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08352F6234101F600345066 /* ViewController.m */; };
-		A08352FA234101F600345066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08352F8234101F600345066 /* Main.storyboard */; };
 		A08352FC234101F800345066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08352FB234101F800345066 /* Assets.xcassets */; };
 		A08352FF234101F800345066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08352FD234101F800345066 /* LaunchScreen.storyboard */; };
 		A0835302234101F800345066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0835301234101F800345066 /* main.m */; };
@@ -18,12 +26,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C78C21523BD793200FD4176 /* CallFuncController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallFuncController.h; sourceTree = "<group>"; };
+		6C78C21623BD793200FD4176 /* CallFuncController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallFuncController.m; sourceTree = "<group>"; };
+		6C78C21823BD7AFB00FD4176 /* CallFunc.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = CallFunc.html; sourceTree = "<group>"; };
+		6C78C21A23BD7BC700FD4176 /* CalculateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateController.h; sourceTree = "<group>"; };
+		6C78C21B23BD7BC800FD4176 /* CalculateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateController.m; sourceTree = "<group>"; };
+		6C78C21D23BD84C100FD4176 /* CurrencyListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyListController.h; sourceTree = "<group>"; };
+		6C78C21E23BD84C100FD4176 /* CurrencyListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyListController.m; sourceTree = "<group>"; };
+		6C78C22023BD8F8900FD4176 /* CustSegmentCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustSegmentCtl.h; sourceTree = "<group>"; };
+		6C78C22123BD8F8900FD4176 /* CustSegmentCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustSegmentCtl.m; sourceTree = "<group>"; };
+		6C78C22323BDC1D000FD4176 /* CalculateViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateViewModel.h; sourceTree = "<group>"; };
+		6C78C22423BDC1D000FD4176 /* CalculateViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateViewModel.m; sourceTree = "<group>"; };
+		6C78C22623BDC48C00FD4176 /* CalculateInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateInfoCell.h; sourceTree = "<group>"; };
+		6C78C22723BDC48C00FD4176 /* CalculateInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateInfoCell.m; sourceTree = "<group>"; };
+		6C78C22923BDD35B00FD4176 /* CalculateResultListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateResultListVC.h; sourceTree = "<group>"; };
+		6C78C22A23BDD35B00FD4176 /* CalculateResultListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateResultListVC.m; sourceTree = "<group>"; };
+		6C78C22C23BDD89400FD4176 /* CalculateModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateModels.h; sourceTree = "<group>"; };
+		6C78C22D23BDD89400FD4176 /* CalculateModels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateModels.m; sourceTree = "<group>"; };
 		A08352EF234101F600345066 /* OCCallJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCCallJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08352F2234101F600345066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A08352F3234101F600345066 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A08352F5234101F600345066 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A08352F6234101F600345066 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A08352F9234101F600345066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A08352FB234101F800345066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A08352FE234101F800345066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0835300234101F800345066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +67,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C78C22F23BDD8A500FD4176 /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				6C78C22C23BDD89400FD4176 /* CalculateModels.h */,
+				6C78C22D23BDD89400FD4176 /* CalculateModels.m */,
+				6C78C21A23BD7BC700FD4176 /* CalculateController.h */,
+				6C78C21B23BD7BC800FD4176 /* CalculateController.m */,
+				6C78C22623BDC48C00FD4176 /* CalculateInfoCell.h */,
+				6C78C22723BDC48C00FD4176 /* CalculateInfoCell.m */,
+				6C78C22323BDC1D000FD4176 /* CalculateViewModel.h */,
+				6C78C22423BDC1D000FD4176 /* CalculateViewModel.m */,
+				6C78C21D23BD84C100FD4176 /* CurrencyListController.h */,
+				6C78C21E23BD84C100FD4176 /* CurrencyListController.m */,
+				6C78C22023BD8F8900FD4176 /* CustSegmentCtl.h */,
+				6C78C22123BD8F8900FD4176 /* CustSegmentCtl.m */,
+				6C78C22923BDD35B00FD4176 /* CalculateResultListVC.h */,
+				6C78C22A23BDD35B00FD4176 /* CalculateResultListVC.m */,
+			);
+			path = Calculate;
+			sourceTree = "<group>";
+		};
 		A08352E6234101F600345066 = {
 			isa = PBXGroup;
 			children = (
@@ -68,11 +113,14 @@
 				A08352F3234101F600345066 /* AppDelegate.m */,
 				A08352F5234101F600345066 /* ViewController.h */,
 				A08352F6234101F600345066 /* ViewController.m */,
-				A08352F8234101F600345066 /* Main.storyboard */,
 				A08352FB234101F800345066 /* Assets.xcassets */,
 				A08352FD234101F800345066 /* LaunchScreen.storyboard */,
 				A0835300234101F800345066 /* Info.plist */,
 				A0835301234101F800345066 /* main.m */,
+				6C78C21523BD793200FD4176 /* CallFuncController.h */,
+				6C78C21623BD793200FD4176 /* CallFuncController.m */,
+				6C78C21823BD7AFB00FD4176 /* CallFunc.html */,
+				6C78C22F23BDD8A500FD4176 /* Calculate */,
 			);
 			path = OCCallJS;
 			sourceTree = "<group>";
@@ -135,10 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A083530B234107BC00345066 /* index.html in Resources */,
+				6C78C21923BD7AFB00FD4176 /* CallFunc.html in Resources */,
 				A08353092341074500345066 /* index2.html in Resources */,
 				A08352FF234101F800345066 /* LaunchScreen.storyboard in Resources */,
 				A08352FC234101F800345066 /* Assets.xcassets in Resources */,
-				A08352FA234101F600345066 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +197,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C78C22B23BDD35B00FD4176 /* CalculateResultListVC.m in Sources */,
+				6C78C22823BDC48C00FD4176 /* CalculateInfoCell.m in Sources */,
 				A08352F7234101F600345066 /* ViewController.m in Sources */,
+				6C78C22523BDC1D000FD4176 /* CalculateViewModel.m in Sources */,
 				A0835302234101F800345066 /* main.m in Sources */,
 				A08352F4234101F600345066 /* AppDelegate.m in Sources */,
+				6C78C22E23BDD89400FD4176 /* CalculateModels.m in Sources */,
+				6C78C21723BD793200FD4176 /* CallFuncController.m in Sources */,
+				6C78C21F23BD84C100FD4176 /* CurrencyListController.m in Sources */,
+				6C78C22223BD8F8900FD4176 /* CustSegmentCtl.m in Sources */,
+				6C78C21C23BD7BC800FD4176 /* CalculateController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A08352F8234101F600345066 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A08352F9234101F600345066 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A08352FD234101F800345066 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -234,18 +282,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Tao Liu (Y5EQM97VAW)";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = Y5EQM97VAW;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OCCallJS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.xiaoyify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.js;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = xiaoyi_adoc;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Adhoc;
@@ -366,27 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development: Tao Liu (7Z7M62742L)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = Y5EQM97VAW;
-				INFOPLIST_FILE = OCCallJS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.xiaoyify;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = xiaoyify_dev;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A0835307234101F800345066 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Tao Liu (Y5EQM97VAW)";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OCCallJS/Info.plist;
@@ -395,9 +423,29 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.xiaoyify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.js;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = xiaoyi_dis;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0835307234101F800345066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = OCCallJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.js;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
